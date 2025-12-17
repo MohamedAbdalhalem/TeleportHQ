@@ -83,6 +83,15 @@ header > div:first-child{
 .bg-white {
   background-color: white;
 }
+.bg-black-600{
+  background-color: rgba(55, 55, 55, 0.8) ;
+}
+.bg-blur{
+  backdrop-filter: blur(30px);
+}
+.bg-dark-half {
+  background-color: rgba(0, 0, 0, 0.1);
+}
 /* =============================
    Border Utilities
 ============================= */
@@ -109,6 +118,7 @@ header > div:first-child{
 ============================= */
 /* Padding */
 .px-10 { padding-left: 10px; padding-right: 10px; }
+.px-25 { padding-left: 25px; padding-right: 25px; }
 .px-60 { padding-left: 60px; padding-right: 60px; }
 .py-50 { padding-top: 50px; padding-bottom: 50px; }
 .py-25 { padding-top: 25px; padding-bottom: 25px; }
@@ -127,6 +137,7 @@ header > div:first-child{
 .me-10 {margin-right: 10px;}
 .me-30 {margin-right: 30px;}
 .ms-10 {margin-left: 10px;}
+.ms-40 {margin-left: 40px;}
 .ms-auto { margin-left: auto !important ;}
 .mx-auto {margin: auto;}
 /* =============================
@@ -139,6 +150,7 @@ header > div:first-child{
 .algin-end{ align-items: end;}
 .algin-slef { align-self: flex-end; }
 .justify-between { justify-content: space-between; }
+.justify-center { justify-content: center; }
 .flex-wrap { flex-wrap: wrap; }
 .flex-column {flex-direction: column;}
 .d-block { display: block; }
@@ -153,6 +165,7 @@ header > div:first-child{
 ============================= */
 .shadow-xl { box-shadow: 23px 23px 58px -11px rgba(0,0,0,0.75);}
 .shadow-md {box-shadow: 0px 1px 5px -7px rgba(0,0,0,0.75);}
+
 /* =============================
    Sizing Utilities
 ============================= */
@@ -162,14 +175,18 @@ header > div:first-child{
 .w-full { width: 100%; }
 .w-36 {width: 36px;}
 .w-fit { width: fit-content; }
+.max-w-400 {max-width: 400px;}
 .h-80 { height: 80px; }
 .h-4 { height: 4px; }
+.h-screen {height: 100%;}
 /* =============================
    positions Utilities
 ============================= */
 .fixed-top {position: fixed; top: 0; left: 0; right: 0;}
 .absolute {position: absolute;}
-
+.relative {position: relative;}
+.top-0 { top: 0; }
+.z-index-1000{z-index: 1000;}
 /* =============================
    Components
 ============================= */

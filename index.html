@@ -12,7 +12,7 @@
     />
 </head>
 <body>
-        <nav class="d-flex algin-center fixed-top bg-white justify-between px-10 py-lg-30 py-xl-50 px-150 h-80 shadow-md ">
+        <nav class="d-flex z-index-1000 algin-center fixed-top bg-white justify-between px-10 py-lg-30 py-xl-50 px-150 h-80 shadow-md ">
             <!-- section for logo -->
             <div class="logo">
                 <img class="d-block w-8-10" src="./Images/FP_Logo_black 1.png" alt="TeleportHQ-Logo">
@@ -21,7 +21,7 @@
             <div class="d-xl-none d-block">
                  <i class="fa-solid fa-bars fa-xl collapse-btn cursor-pointer"></i>
             </div>
-            <div class="Links d-xl-flex d-none bg-white  absolute static-xl  gap-35 w-full w-fit-xl bg-blur">
+            <div class="Links d-xl-flex d-none bg-white  absolute static-xl  gap-35 w-full w-fit-xl">
                 <ul class="d-flex flex-column flex-row-xl algin-center gap-35 font-semibold ">
                     <li><a  href="">services</a></li>
                     <li><a href="">Technologies</a></li>
@@ -106,7 +106,7 @@
             </div>
          </section>
          <!-- contact section -->
-          <section >
+          <section  class="relative">
             <div class="px-10 py-50 py-xl-50 px-250 ">
                 <h3 class="text-center text-50 font-bold mb-10">Let's talk</h3>
             <div class="bg-orange w-36 h-4 mx-auto"></div>
@@ -152,6 +152,18 @@
                 <button class="w-full w-lg-1-2 btn-orange py-25 shadow-xl cursor-pointer" type="button">SEND MASSAGE <i class="fa-solid fa-arrow-right-long ms-10"></i></button>
                 
             </form>
+            </div>
+            <!-- submit modal -->
+            <div id="submit-modal" class="absolute d-none bg-dark-half top-0  w-full h-screen  justify-center algin-center">
+                <div class="bg-black-600 max-w-400">
+                    <div class="py-25 px-10 text-white bg-blur">
+                        <p class="text-14 font-bold">Send an email</p>
+                        <p class="text-26 font-bold">sales@future-processing.com</p>
+                        <p class="text-12 font-bold text-orange">copy to clipboard</p>
+                        <p class="text-26 font-bold">+44 845 805 74 79 <span class="text-12 text-orange">...view</span></p>
+                    </div>
+                    <button class="btn-orange d-block w-full ">USE CONTACT FORM <i class="fa-solid fa-arrow-right-long m py-25 "></i></button>
+                </div>
             </div>
          </section>
         </main>
