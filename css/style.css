@@ -176,7 +176,7 @@ header > div:first-child{
 .btn-orange {
   border: none;
   outline: none;
-  background-color: #FF6000;
+  background: linear-gradient(135deg, #FFA000, #FF6000);
   color: #fff;
 }
 
